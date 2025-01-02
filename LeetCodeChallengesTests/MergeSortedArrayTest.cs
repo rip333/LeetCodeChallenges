@@ -3,7 +3,7 @@ namespace LeetCodeChallengesTests;
 public class MergeSortedArrayTests
 {
     [Fact]
-    public void Test_Case_1()
+    public void MergeSortedArray_Test_Case_1()
     {
         // Arrange
         int[] nums1 = { 1, 2, 3, 0, 0, 0 };
@@ -20,7 +20,7 @@ public class MergeSortedArrayTests
     }
 
     [Fact]
-    public void Test_Case_2()
+    public void MergeSortedArray_Test_Case_2()
     {
         // Arrange
         int[] nums1 = { 1 };
@@ -37,7 +37,7 @@ public class MergeSortedArrayTests
     }
 
     [Fact]
-    public void Test_Case_3()
+    public void MergeSortedArray_Test_Case_3()
     {
         // Arrange
         int[] nums1 = { 0 };
@@ -54,7 +54,7 @@ public class MergeSortedArrayTests
     }
 
     [Fact]
-    public void Test_Case_4()
+    public void MergeSortedArray_Test_Case_4()
     {
         // Arrange
         int[] nums1 = { 4, 5, 6, 0, 0, 0 };

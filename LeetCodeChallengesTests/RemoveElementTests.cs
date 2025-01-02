@@ -4,7 +4,7 @@ using System.Linq;
 public class RemoveElementTests
 {
     [Fact]
-    public void Test_Case_1()
+    public void RemoveElement_Test_Case_1()
     {
         // Arrange
         int[] nums = { 3, 2, 2, 3 };
@@ -20,7 +20,7 @@ public class RemoveElementTests
     }
 
     [Fact]
-    public void Test_Case_2()
+    public void RemoveElement_Test_Case_2()
     {
         // Arrange
         int[] nums = { 0, 1, 2, 2, 3, 0, 4, 2 };
