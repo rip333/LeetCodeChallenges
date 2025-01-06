@@ -16,8 +16,3 @@ public class RemoveDuplicates
         return unique + 1;
     }
 }
-
-i 1
-u 0
-
-1 1 2 3 3
